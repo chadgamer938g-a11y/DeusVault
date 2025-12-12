@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.deusvault" name="Invictadeus" version="1.0.0" provider-name="Chadgamer2023">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Invictadeus: SMB helper and offline downloader</summary>
+        <description>Helps add SMB shares, measure latency, and download for offline.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
